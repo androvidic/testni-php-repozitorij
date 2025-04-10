@@ -82,7 +82,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <br>
 <br>
 <br>
-<img src="file:\\\C:\Users\andri\Desktop\Testni projekt - Andrija\slikeANDRIJA VIDIĆ.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
+<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
     </div>
 
     <div>
