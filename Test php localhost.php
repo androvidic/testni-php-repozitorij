@@ -108,6 +108,30 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 </aside>
     <br>
     <br>
+<p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac</p>
+<br>
+    <form method="post" action="spremiPodatke.php">
+    <input type="text" name="Vaše ime i prezime" placeholder="Upišite svoje ime i prezime">
+    <br>
+    <br>
+    <input type="password" name="lozinka" placeholder="Unesite svoju lozinku">
+    <br>
+    <br>
+    <input type="text" name="adresa" placeholder="Naziv ulice i kućni broj">
+    <br>
+    <br>
+    <textarea name="komentar" maxlength="500" ></textarea>
+    <br>
+    <br>
+    <input type="radio" name="spol" value="m" checked>muški
+<input type="radio" name="spol" value="f">ženski
+<input type="radio" name="spol" value="n">ne želim odgovoriti
+<br>
+<br>
+    <input type="submit" value="Pošalji">
+
+    </form>
+    <br>
     <hr>
 <footer style="text-align: center;">
 <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
