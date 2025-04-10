@@ -53,12 +53,12 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     <hr>
     <aside>
     
-         <a class="tekst-1"href=www.edukos.instrukcije.hr>Klikom odi na Edukos web</a>
+         <a class="tekst-1" href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
 
             <br>
             
             <br>
-    <p class="tekst-2">Gornji link treba popravak, ne radi ispravno</p>
+    <p class="tekst-2">Gornji link radi ispravno</p>
     <br>
     <input type="checkbox" > Izgleda li ti ova stranica dobro?</input>
     <br>
