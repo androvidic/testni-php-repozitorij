@@ -75,35 +75,49 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <hr>
 <br>
 <div style="text-align: center;">
+<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
+<p>Developer: Andrija Vidić</p>
+    </div>
+    <div style="text-align: center;">
 <a href="mailto:andrija.vidic3@gmail.com">Za sve info pošaljite mail developeru</a>
 <br>
 <br>
-<a href="tel:+38516165165">Za sva telefonska pitanja nazovite developera</a>.
-<br>
-<br>
-<br>
-<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
-    </div>
-
-    <div>
-
+<a href="tel:+38516165165">Za sva telefonska pitanja nazovite developera</a>
+</div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div style="align-items: center;">
     <table> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
              <th>Trajanje modula u satima</th>
         </tr> 
-        <tr> <td>Linux - priprema radne okoline</td> 
-             <td>15</td>
+            <tr> 
+                <td><em>Linux - priprema radne okoline</em></td> 
+                <td><strong>15</strong></td>
         </tr> 
-        <tr> <td>Uvod u HTML</td>
-             <td>20</td>
+        <tr> 
+            <td><em>Uvod u HTML</em></td>
+             <td><strong>25</strong>
+        </tr>
+        <tr> 
+            <td><em>Uvod u PHP</em></td>
+             <td><strong>20</strong></td>     
         </tr> 
-        <tr> <td>Uvod u PHP</td>
-             <td>20</td>     
+        <tr> 
+            <td><em>Uvod u SQL</em></td>
+             <td><strong>15</strong></td>     
+        </tr> 
+        <tr> 
+            <td><em>Napredni PHP</em></td>
+             <td><strong>25</strong></td>     
+        </tr> 
+        <tr> <td><em>Laravel</em></td>
+             <td><strong>25</strong></td>     
         </tr> 
     </table> 
-
-    
     </div>
 
 </body>
