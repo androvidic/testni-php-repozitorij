@@ -21,7 +21,7 @@
     <title>Primjer PHP i HTML-a</title>
 </head>
 <body>
-    <div style="text-align: center;">
+    <header style="text-align: center;">
     <h1 class="tekst-1">
 <?php
 $time = date("H");
@@ -37,7 +37,7 @@ if ($time < 12) {
 echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 ?>
 </h1>
-    </div>
+</header>
     <hr>
     <div style="text-align: center;">
         <p class="tekst-2">
@@ -51,6 +51,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     <br>
     </div>
     <hr>
+    <aside>
     
          <a class="tekst-1"href=www.edukos.instrukcije.hr>Klikom odi na Edukos web</a>
 
@@ -59,7 +60,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
             <br>
     <p class="tekst-2">Gornji link treba popravak, ne radi ispravno</p>
     <br>
-    <input type="checkbox" > Izgleda li ti ova stranica dobro? 
+    <input type="checkbox" > Izgleda li ti ova stranica dobro?</input>
     <br>
     <br>
     <p>Ispod se nalazi testna lista</p>
@@ -74,21 +75,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 
 <hr>
 <br>
-<div style="text-align: center;">
-<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
-<p>Developer: Andrija Vidić</p>
-    </div>
-    <div style="text-align: center;">
-<a href="mailto:andrija.vidic3@gmail.com">Za sve info pošaljite mail developeru</a>
 <br>
-<br>
-<a href="tel:+38516165165">Za sva telefonska pitanja nazovite developera</a>
-</div>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <div style="align-items: center;">
     <table> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
@@ -118,7 +105,20 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
              <td><strong>25</strong></td>     
         </tr> 
     </table> 
+</aside>
+    <br>
+    <br>
+    <hr>
+<footer style="text-align: center;">
+<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
+<p>Developer: Andrija Vidić</p>
     </div>
+    <div style="text-align: center;">
+<a href="mailto:andrija.vidic3@gmail.com">Za sve info pošaljite mail developeru</a>
+<br>
+<br>
+<a href="tel:+38516165165">Za sva telefonska pitanja nazovite developera</a>
+</footer>
 
 </body>
 </html>
