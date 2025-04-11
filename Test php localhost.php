@@ -76,7 +76,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <hr>
 <br>
 <br>
-    <table> 
+    <table border "2" align="center"> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
              <th>Trajanje modula u satima</th>
@@ -105,27 +105,36 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
              <td><strong>25</strong></td>     
         </tr> 
     </table> 
-</aside>
     <br>
     <br>
-<p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac</p>
+<p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
     <form method="post" action="spremiPodatke.php">
     <input type="text" name="Vaše ime i prezime" placeholder="Upišite svoje ime i prezime">
     <br>
     <br>
-    <input type="password" name="lozinka" placeholder="Unesite svoju lozinku">
+    <input type="text" name="mjesto" placeholder="Unesite svoje mjesto stanovanja">
     <br>
     <br>
     <input type="text" name="adresa" placeholder="Naziv ulice i kućni broj">
     <br>
     <br>
-    <textarea name="komentar" maxlength="500" ></textarea>
+    <textarea name="komentar" maxlength="500" >Napišite svoju napomenu</textarea>
     <br>
     <br>
     <input type="radio" name="spol" value="m" checked>muški
 <input type="radio" name="spol" value="f">ženski
 <input type="radio" name="spol" value="n">ne želim odgovoriti
+<br>
+<p>Odaberite program koji želite upisati</p>
+<select name="programming_language">
+  <option value="linux">Linux priprema radne okoline</option>
+  <option value="sql">Uvod u HTML	</option>
+  <option value="php">Uvod u PHP</option>
+  <option value="sql">Uvod u SQL</option>
+  <option value="napredni php">Napredni PHP</option>
+  <option value="laravel">Laravel</option>
+</select>
 <br>
 <br>
     <input type="submit" value="Pošalji">
@@ -138,10 +147,10 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <p>Developer: Andrija Vidić</p>
     </div>
     <div style="text-align: center;">
-<a href="mailto:andrija.vidic3@gmail.com">Za sve info pošaljite mail developeru</a>
+<a href="mailto:andrija.vidic3@gmail.com">andrija.vidic3@gmail.com</a>
 <br>
 <br>
-<a href="tel:+38516165165">Za sva telefonska pitanja nazovite developera</a>
+<a href="tel:+38516165165">0993033672</a>
 </footer>
 
 </body>
