@@ -51,7 +51,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     <br>
     </div>
     <hr>
-    <aside>
+    <div style="text-align: center;">
     
          <a class="tekst-1" href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
 
@@ -72,11 +72,11 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <li>Druga stavka liste</li>
 
 </ul>
-
+</div>
 <hr>
 <br>
 <br>
-    <table border "2" align="center"> 
+    <table border "2" align="center" style="text-align: center;"> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
              <th>Trajanje modula u satima</th>
@@ -107,9 +107,9 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     </table> 
     <br>
     <br>
-<p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
+<p style="text-align: center;">Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
-    <form method="post" action="spremiPodatke.php">
+    <form method="post" action="spremiPodatke.php" style="text-align: center;">
     <input type="text" name="Vaše ime i prezime" placeholder="Upišite svoje ime i prezime">
     <br>
     <br>
