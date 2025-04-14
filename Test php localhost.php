@@ -2,40 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <style>
-        .tekst-1 {
-            color: blue;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-style: italic;            
-        }
-
-        .tekst-2 {
-            color: black;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-style: italic;
-            font-weight: bolder;
-        }
-        .header-background {
-            background-color: lightblue;
-            padding: 10px;
-            margin: 20px;
-            
-
-        }
-        .main-css {
-            background-color: lightgrey;
-            padding: 10px;
-            margin: 20px;
-            
-
-        }
-
-        </style>
     <title>Primjer PHP i HTML-a</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header style="text-align: center;" class="header-background">
+    <header>
     <h1 class="tekst-2">
 <?php
 $time = date("H");
@@ -53,7 +24,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 </h1>
 </header>
     <hr>
-    <main class="main-css">
+    <main>
     <div style="text-align: center;">
         <p class="tekst-2">
             <?php
@@ -158,7 +129,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     <br>
     <hr>
     </main>
-<footer style="text-align: center;" class="header-background">
+<footer>
 <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
 <p>Developer: Andrija Vidić</p>
     </div>
