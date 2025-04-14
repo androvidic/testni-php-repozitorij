@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-    <h1 class="tekst-2">
+    <h1>
 <?php
 $time = date("H");
 
@@ -19,9 +19,17 @@ if ($time < 12) {
     $greeting = "Dobra večer";
 }
 
-echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
+echo $greeting . ", Vaš New Breed Asisst in digital!";
 ?>
 </h1>
+<nav>
+<ul><a href="#">Početna stranica</a>
+<a href="#">O nama</a>
+<a href="#">Naše usluge</a>
+<a href="#">Reference</a>
+<a href="#">Kontatk</a>
+</ul>
+</nav>
 </header>
     <hr>
     <main>
@@ -39,12 +47,12 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     <hr>
     <div style="text-align: center;">
     
-         <a class="tekst-1" href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
+         <a href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
 
             <br>
             
             <br>
-    <p class="tekst-2">Gornji link radi ispravno</p>
+    <p>Gornji link radi ispravno</p>
     <br>
     <input type="checkbox" > Izgleda li ti ova stranica dobro?</input>
     <br>
@@ -62,7 +70,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <hr>
 <br>
 <br>
-    <table border "2" align="center" style="text-align: center;"> 
+    <table> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
              <th>Trajanje modula u satima</th>
@@ -93,7 +101,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
     </table> 
     <br>
     <br>
-<p style="text-align: center;">Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
+<p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
     <form method="post" action="spremiPodatke.php" style="text-align: center;">
     <input type="text" name="Vaše ime i prezime" placeholder="Upišite svoje ime i prezime">
@@ -133,7 +141,7 @@ echo $greeting . ", Dobrodošli na moju testnu PHP - HTML stranicu!";
 <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
 <p>Developer: Andrija Vidić</p>
     </div>
-    <div style="text-align: center;">
+    <div>
 <a href="mailto:andrija.vidic3@gmail.com">andrija.vidic3@gmail.com</a>
 <br>
 <br>
