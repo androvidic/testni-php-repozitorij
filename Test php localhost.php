@@ -145,7 +145,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <input type="submit" value="Pošalji">
 
     </form>
-    </div>
+</div>
     <br>
     <hr>
     </main>
@@ -157,7 +157,6 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
         <p style="color: black;">Copyright 2025. New Breed Assist in digital</p>
     </div>
 </footer>
-</div>
 </body>
 </html>
 
