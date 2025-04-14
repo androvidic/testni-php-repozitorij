@@ -40,7 +40,7 @@ nav ul {
     display: flex;
     gap: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem; /* Korištenje rem za bolje prilagođavanje */
+    font-size: 1.5rem; /* Korištenje rem za bolje prilagođavanje */
     padding: 20px;
 }
 
@@ -89,6 +89,31 @@ button[type="submit"], input[type="submit"] {
 button[type="submit"]:hover, input[type="submit"]:hover {
     background-color: #45a049;
     transform: scale(1.05); /* Dodan efekt povećanja kod hovera */
+}
+/* Efekti prelaska mišem za linkove */
+a {
+    color: #007BFF; /* Zadana boja linka */
+    text-decoration: none; /* Uklonjena podvlačenja linkova */
+    transition: color 0.3s, text-decoration 0.3s; /* Glatki prijelazi */
+}
+
+a:hover {
+    color: #0056b3; /* Promjena boje linka pri hoveru */
+    text-decoration: underline; /* Dodaje podvlačenje pri hoveru */
+}
+
+/* Efekti prelaska mišem za bilo koji element */
+button:hover, td:hover, th:hover, input:hover, select:hover {
+    transform: scale(1.02); /* Lagano povećanje veličine pri hoveru */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dodavanje sjene pri hoveru */
+    transition: transform 0.3s, box-shadow 0.3s; /* Glatki prijelaz */
+}
+
+/* Efekti za navigacijske stavke */
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Dodaje naglašavanje pozadine pri hoveru */
+    border-radius: 5px; /* Zaobljeni rubovi za bolje naglašavanje */
+    transition: background-color 0.3s; /* Glatki prijelaz */
 }
 
 
