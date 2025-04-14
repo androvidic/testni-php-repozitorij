@@ -34,7 +34,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 </header>
     <hr>
     <main>
-    <div>
+    <div class= "container hero">
         <p>
             <?php
              // Ovo je PHP kod unutar HTML-a
@@ -46,7 +46,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <br>
     </div>
     <hr>
-    <div>
+    <div class="container hero">
     
          <a href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
 
@@ -71,6 +71,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 <hr>
 <br>
 <br>
+<div class="container hero">
     <table> 
         <tr> 
             <th>Modul tečaja u Algebri</th>
@@ -100,8 +101,10 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
              <td><strong>25</strong></td>     
         </tr> 
     </table> 
+</div>
     <br>
     <br>
+    <div class="container hero">
 <p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
     <form method="post" action="spremiPodatke.php">
@@ -140,15 +143,17 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <input type="submit" value="Pošalji">
 
     </form>
+    </div>
     <br>
     <hr>
     </main>
 <footer>
-<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"/> 
+    <div class="footer content">
+<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"> 
 <a href="mailto:andrija.vidic3@gmail.com">andrija.vidic3@gmail.com</a>
 <a href="tel:+38516165165">0993033672</a>
 </footer>
-
+</div>
 </body>
 </html>
 
