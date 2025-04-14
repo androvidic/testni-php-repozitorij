@@ -20,7 +20,7 @@ if ($time < 12) {
     $greeting = "Dobra večer";
 }
 
-echo $greeting . ", Vaš New Breed Asisst in digital!";
+echo $greeting . ", vam želimo - New Breed Assist in digital";
 ?>
 </h1>
 <nav>
