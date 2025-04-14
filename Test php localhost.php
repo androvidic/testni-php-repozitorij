@@ -34,8 +34,8 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 </header>
     <hr>
     <main>
-    <div style="text-align: center;">
-        <p class="tekst-2">
+    <div>
+        <p>
             <?php
              // Ovo je PHP kod unutar HTML-a
                 echo "Danas je " . date("d.m.Y.") . " i vrijeme je " . date("H:i:s");
@@ -46,7 +46,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <br>
     </div>
     <hr>
-    <div style="text-align: center;">
+    <div>
     
          <a href="https://www.edukos-instrukcije.hr" target="_blank">Klikom odi na Edukos web</a>
 
