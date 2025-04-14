@@ -60,10 +60,10 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <br>
     <p>Ispod se nalazi testna lista</p>
     
-<ul>
+<ul style="list-style-type: none;">
 
 <li>Prva stavka liste</li>
-<ul><li>Podstavka liste</li></ul>
+<ul style="list-style-type: none;"><li>Podstavka liste</li></ul>
 <li>Druga stavka liste</li>
 
 </ul>
@@ -104,24 +104,29 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <br>
 <p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
-    <form method="post" action="spremiPodatke.php" style="text-align: center;">
+    <form method="post" action="spremiPodatke.php">
+        <label for="name">Ime i prezime</label>
     <input type="text" name="Vaše ime i prezime" placeholder="Upišite svoje ime i prezime">
     <br>
     <br>
+    <label for="mjesto">Mjesto stanovanja</label>
     <input type="text" name="mjesto" placeholder="Unesite svoje mjesto stanovanja">
     <br>
     <br>
+    <label for="adresa">Adresa stanovanja</label>
     <input type="text" name="adresa" placeholder="Naziv ulice i kućni broj">
     <br>
     <br>
-    <textarea name="komentar" maxlength="500" >Napišite svoju napomenu</textarea>
+    <label for="komentar">Vaš komentar</label>
+    <textarea name="komentar" maxlength="500">Napišite svoju napomenu</textarea>
     <br>
     <br>
+    <label for="spol">Vaš spol</label>
     <input type="radio" name="spol" value="m" checked>muški
 <input type="radio" name="spol" value="f">ženski
 <input type="radio" name="spol" value="n">ne želim odgovoriti
 <br>
-<p>Odaberite program koji želite upisati</p>
+<label for="programming_language">Odaberite program koji želite upisati</label>
 <select name="programming_language">
   <option value="linux">Linux priprema radne okoline</option>
   <option value="sql">Uvod u HTML	</option>
