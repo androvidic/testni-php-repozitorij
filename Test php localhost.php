@@ -24,12 +24,12 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 ?>
 </h1>
 <nav>
-<ul><a href="#">Početna stranica</a>
-<a href="#">O nama</a>
-<a href="#">Naše usluge</a>
-<a href="#">Reference</a>
-<a href="#">Kontakt</a>
-</ul>
+    <ul><a href="#">Početna stranica</a>
+        <a href="#">O nama</a>
+        <a href="#">Naše usluge</a>
+        <a href="#">Reference</a>
+        <a href="#">Kontakt</a>
+    </ul>
 </nav>
 </header>
     <hr>
@@ -53,18 +53,18 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
             <br>
             
             <br>
-    <p>Gornji link radi ispravno</p>
+        <p>Gornji link radi ispravno</p>
     <br>
-    <input type="checkbox" > Izgleda li ti ova stranica dobro?</input>
+        <input type="checkbox" > Izgleda li ti ova stranica dobro?</input>
     <br>
     <br>
-    <p>Ispod se nalazi testna lista</p>
+        <p>Ispod se nalazi testna lista</p>
     
 <ul style="list-style-type: none;">
 
-<li>Prva stavka liste</li>
+    <li>Prva stavka liste</li>
 <ul style="list-style-type: none;"><li>Podstavka liste</li></ul>
-<li>Druga stavka liste</li>
+    <li>Druga stavka liste</li>
 
 </ul>
 </div>
@@ -104,7 +104,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 </div>
     <br>
     <br>
-    <div class="container hero">
+<div class="container hero">
 <p>Za prijavu na tečaj, molimo Vas unesite Vaše podatke u prijavni obrazac:</p>
 <br>
     <form method="post" action="spremiPodatke.php">
@@ -113,32 +113,32 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <br>
     <br>
     <label for="mjesto">Mjesto stanovanja</label>
-    <input type="text" name="mjesto" placeholder="Unesite svoje mjesto stanovanja">
+        <input type="text" name="mjesto" placeholder="Unesite svoje mjesto stanovanja">
     <br>
     <br>
     <label for="adresa">Adresa stanovanja</label>
-    <input type="text" name="adresa" placeholder="Naziv ulice i kućni broj">
+        <input type="text" name="adresa" placeholder="Naziv ulice i kućni broj">
     <br>
     <br>
     <label for="komentar">Vaš komentar</label>
-    <textarea name="komentar" maxlength="500">Napišite svoju napomenu</textarea>
+        <textarea name="komentar" maxlength="500">Napišite svoju napomenu</textarea>
     <br>
     <br>
-    <div class="radio-group">
+<div class="radio-group">
     <label for="spol">Vaš spol</label>
-    <input type="radio" name="spol" value="m" checked>muški
-<input type="radio" name="spol" value="f">ženski
-<input type="radio" name="spol" value="n">ne želim odgovoriti
+        <input type="radio" name="spol" value="m" checked>muški
+    <input type="radio" name="spol" value="f">ženski
+    <input type="radio" name="spol" value="n">ne želim odgovoriti
 </div>
 <br>
 <label for="programming_language">Odaberite program koji želite upisati</label>
-<select name="programming_language">
-  <option value="linux">Linux priprema radne okoline</option>
-  <option value="sql">Uvod u HTML	</option>
-  <option value="php">Uvod u PHP</option>
-  <option value="sql">Uvod u SQL</option>
-  <option value="napredni php">Napredni PHP</option>
-  <option value="laravel">Laravel</option>
+    <select name="programming_language">
+    <option value="linux">Linux priprema radne okoline</option>
+    <option value="sql">Uvod u HTML	</option>
+    <option value="php">Uvod u PHP</option>
+    <option value="sql">Uvod u SQL</option>
+    <option value="napredni php">Napredni PHP</option>
+    <option value="laravel">Laravel</option>
 </select>
 <br>
 <br>
@@ -151,11 +151,11 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     </main>
 <footer>
     <div class="footer-content">
-<img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"> 
-<a href="mailto:andrija.vidic3@gmail.com">Mail:andrija.vidic3@gmail.com</a>
-<a href="tel:+38516165165">Tel: 0993033672</a>
-<p style="color: black;">Copyright 2025. New Breed Assist in digital</p>
-</div>
+        <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"> 
+        <a href="mailto:andrija.vidic3@gmail.com">Mail:andrija.vidic3@gmail.com</a>
+        <a href="tel:+38516165165">Tel: 0993033672</a>
+        <p style="color: black;">Copyright 2025. New Breed Assist in digital</p>
+    </div>
 </footer>
 </div>
 </body>
