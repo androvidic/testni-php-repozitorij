@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        <img src="slike\Transparent.png" alt="NbAid" width="300px">
     <h1>
 <?php
 $time = date("H");
@@ -27,7 +28,7 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 <a href="#">O nama</a>
 <a href="#">Naše usluge</a>
 <a href="#">Reference</a>
-<a href="#">Kontatk</a>
+<a href="#">Kontakt</a>
 </ul>
 </nav>
 </header>
