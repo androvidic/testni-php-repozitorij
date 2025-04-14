@@ -124,10 +124,12 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <textarea name="komentar" maxlength="500">Napišite svoju napomenu</textarea>
     <br>
     <br>
+    <div class="radio-group">
     <label for="spol">Vaš spol</label>
     <input type="radio" name="spol" value="m" checked>muški
 <input type="radio" name="spol" value="f">ženski
 <input type="radio" name="spol" value="n">ne želim odgovoriti
+</div>
 <br>
 <label for="programming_language">Odaberite program koji želite upisati</label>
 <select name="programming_language">
@@ -148,10 +150,10 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
     <hr>
     </main>
 <footer>
-    <div class="footer content">
+    <div class="footer-content">
 <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"> 
-<a href="mailto:andrija.vidic3@gmail.com">andrija.vidic3@gmail.com</a>
-<a href="tel:+38516165165">0993033672</a>
+<a href="mailto:andrija.vidic3@gmail.com">Mail:andrija.vidic3@gmail.com</a>
+<a href="tel:+38516165165">Tel: 0993033672</a>
 </footer>
 </div>
 </body>
