@@ -158,7 +158,7 @@ nav ul li:hover {
     color: #333; /* Suptilnija nijansa teksta */
 }
     
-}
+
 .radio-group {
     display: flex; /* Smješta radio gumbiće u jednu liniju */
     gap: 10px; /* Dodaje razmak između elemenata */

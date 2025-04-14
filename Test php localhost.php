@@ -154,6 +154,8 @@ echo $greeting . ", Vaš New Breed Asisst in digital!";
 <img src="slike/ANDRIJA%20VIDI%C4%86.jpg" alt="Developer je Andrija Vidić" title="Developer je Andrija Vidić" width="180" height="280"> 
 <a href="mailto:andrija.vidic3@gmail.com">Mail:andrija.vidic3@gmail.com</a>
 <a href="tel:+38516165165">Tel: 0993033672</a>
+<p style="color: black;">Copyright 2025. New Breed Assist in digital</p>
+</div>
 </footer>
 </div>
 </body>
