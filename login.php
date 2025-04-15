@@ -23,6 +23,7 @@
         $prezime = 'Vidić';
         $godine = 20;
         $je_li_musko = true;
+        $varijabla_a = 'A';
 // dolje su ti primjeri koje možeš pregledati u browseru
         $full_name = $ime . ' ' . $prezime;
         echo $full_name;
@@ -38,6 +39,8 @@
 define('PI', 3.14);
             echo 'PI je: ' . PI;
             echo "<br>";
+            echo 'Varijabla a je: ' . $varijabla_a;
+
         ?>
     </div>
 </body>
