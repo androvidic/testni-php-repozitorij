@@ -1,0 +1,176 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Modernija i popularna font opcija */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #f0f0f0; /* Subtilnija nijansa */
+    border-bottom: 2px solid #ccc; /* Dodan moderniji stil */
+}
+
+footer {
+    background: linear-gradient(to bottom, #87ceeb, #333); /* Blago prilagođena paleta boja */
+    display: flex; /* Dodano za jasniju centriranost */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Dodan kontrast za čitljivost */
+}
+
+main {
+    background-color: #b0c4de; /* Moderniji ton plave boje */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Dodan padding za ugodniji raspored sadržaja */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem; /* Korištenje rem za bolje prilagođavanje */
+    padding: 20px;
+}
+
+table {
+    padding: 10px;
+    background-color: black; /* Osvježena nijansa */
+    border-radius: 20px;
+    border: 2px solid #4A4A4A;
+    border-spacing: 10px;
+    width: 60%; /* Veći prostor za preglednost */
+    border-collapse: collapse;
+    align-items: center;
+    margin: auto;
+}
+
+td, th {
+    border: 2px solid #4A4A4A;
+    padding: 10px; /* Dodan padding za bolju čitljivost */
+}
+
+form {
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: 400px;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodan efekt sjene */
+}
+
+input, select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc; /* Dodan moderniji okvir */
+    border-radius: 5px; /* Zaobljeni rubovi za moderniji izgled */
+}
+
+button[type="submit"], input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Bolje prilagođavanje */
+    transition: background-color 0.3s, transform 0.3s; /* Dodan efekt transformacije */
+}
+
+button[type="submit"]:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Dodan efekt povećanja kod hovera */
+}
+/* Efekti prelaska mišem za linkove */
+a {
+    color: #007BFF; /* Zadana boja linka */
+    text-decoration: none; /* Uklonjena podvlačenja linkova */
+    transition: color 0.3s, text-decoration 0.3s; /* Glatki prijelazi */
+}
+
+a:hover {
+    color: #0056b3; /* Promjena boje linka pri hoveru */
+    text-decoration: underline; /* Dodaje podvlačenje pri hoveru */
+}
+
+/* Efekti prelaska mišem za bilo koji element */
+button:hover, td:hover, th:hover, input:hover, select:hover {
+    transform: scale(1.02); /* Lagano povećanje veličine pri hoveru */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dodavanje sjene pri hoveru */
+    transition: transform 0.3s, box-shadow 0.3s; /* Glatki prijelaz */
+}
+
+/* Efekti za navigacijske stavke */
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Dodaje naglašavanje pozadine pri hoveru */
+    border-radius: 5px; /* Zaobljeni rubovi za bolje naglašavanje */
+    transition: background-color 0.3s; /* Glatki prijelaz */
+}
+.container {
+    width: 90%; /* Prilagodljivo za manje uređaje */
+    max-width: 1200px; /* Maksimalna širina za veće ekrane */
+    margin: 20px auto; /* Centriranje kontejnera */
+    padding: 20px;
+    background-color: #f9f9f9; /* Suptilna pozadinska boja */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efekt sjene za dubinu */
+    text-align: center;
+    justify-content: center;
+}
+
+.hero {
+    background-color: #87ceeb; /* Specifična boja za hero sekciju */
+    color: #fff;
+}
+
+.content {
+    background-color: #f0f8ff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Elementi se slažu vertikalno */
+    align-items: center; /* Centriranje elemenata */
+    text-align: center; /* Poravnanje teksta */
+    gap: 10px; /* Razmak između slike i teksta */
+    padding: 20px;
+}
+
+.footer-content img {
+    max-width: 100%; /* Osigurava prilagodljivost slike */
+    height: auto; /* Održava proporcije slike */
+    border-radius: 10px; /* Dodaje blago zaobljene rubove slici (opcionalno) */
+}
+
+.footer-content p {
+    font-size: 16px; /* Prilagodljiva veličina fonta */
+    color: #333; /* Suptilnija nijansa teksta */
+}
+    
+
+.radio-group {
+    display: flex; /* Smješta radio gumbiće u jednu liniju */
+    gap: 10px; /* Dodaje razmak između elemenata */
+    align-items: center; /* Vertikalno poravnava gumbiće i tekst */
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; /* Dodaje razmak između gumbiča i labela */
+}
+
+.radio-group label {
+    color: white; /* Tekst je crne boje */
+    font-size: 16px; /* Vidljivija veličina fonta */
+    cursor: pointer; /* Dodaje pokazivač za labelu */
+}
